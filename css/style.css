@@ -129,6 +129,23 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ /* valore-intermedio */
+
+ @media  screen  and ( min-width:768px ) and ( max-width: 1425px ){
+    .container{
+        max-width: 100%;
+       }
+ }
+
+/* tablet */
+
+@media screen and ( max-width:768px ) {
+
+    .container{
+     max-width: 100%;
+    }
+ 
+ }
  
 /* smartphone */
 
@@ -147,14 +164,4 @@ img {
     .col{
         margin-bottom: 20px;
     }
-}
-
-/* tablet */
-
-@media screen and ( min-width:768px ) {
-
-   .container{
-    max-width: 100%;
-   }
-
 }
